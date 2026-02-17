@@ -1,0 +1,46 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.plasma_saber.ignite": {
+			"loop": "hold_on_last_frame",
+			"animation_length": 2.1,
+			"bones": {
+				"blade": {
+					"scale": {
+						"0.0": {
+							"vector": [1, 0, 1]
+						},
+						"1.8": {
+							"vector": [1, 1, 1],
+							"easing": "easeOutBounce"
+						}
+					}
+				}
+			}
+		},
+		"animation.plasma_saber.idle": {
+			"loop": true,
+			"bones": {
+				"blade": {
+					"scale": {
+						"vector": [
+							"1.0 + Math.sin(query.anim_time * 20) * 0.02",
+							"1.0 + Math.sin(query.anim_time * 15) * 0.01",
+							"1.0 + Math.sin(query.anim_time * 20) * 0.02"
+						]
+					}
+				}
+			}
+		},
+		"animation.plasma_saber.off": {
+			"loop": true,
+			"bones": {
+				"blade": {
+					"scale": {
+						"vector": [1, 0, 1]
+					}
+				}
+			}
+		}
+	}
+}

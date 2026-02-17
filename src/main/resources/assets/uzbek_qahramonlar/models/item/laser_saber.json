@@ -1,0 +1,6 @@
+{
+  "parent": "uzbek_qahramonlar:displaysettings/lazer_qilich",
+  "textures": {
+    "layer0": "uzbek_qahramonlar:item/plasma_saber_texture.png"
+  }
+}

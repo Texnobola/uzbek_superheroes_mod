@@ -1,0 +1,142 @@
+{
+  "mod_elements": [
+    {
+      "name": "LETSFUCKINGGO",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "letsfuckinggo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uzbek_qahramonlar/advancements/letsfuckinggo.json"
+        ]
+      }
+    },
+    {
+      "name": "UzbekQahramonlar",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uzbek_qahramonlar",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "LaserSaber",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_saber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/item/LaserSaberItem.java",
+          "src/main/java/net/mcreator/uzbekqahramonlar/item/renderer/LaserSaberItemRenderer.java",
+          "src/main/resources/assets/uzbek_qahramonlar/models/item/laser_saber.json",
+          "src/main/resources/uzbek_qahramonlar.mixins.json",
+          "src/main/java/net/mcreator/uzbekqahramonlar/item/model/LaserSaberItemModel.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserSaberItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_saber_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/procedures/LaserSaberItemInHandTickProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IgniteKeyOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignite_key_on_key_pressed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ],
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/procedures/IgniteKeyOnKeyPressedProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "IgniteKey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ignite_key",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/network/IgniteKeyMessage.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "advancements.letsfuckinggo.descr": "Boshla",
+      "advancements.letsfuckinggo.title": "LETS FUCKING  GO !!!!!!!!",
+      "item_group.uzbek_qahramonlar.uzbek_qahramonlar": "Uzbek Qahramonlar",
+      "item.uzbek_qahramonlar.laser_saber": "Lazer Qilich",
+      "key.uzbek_qahramonlar.ignite_key": "Ignite Key"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/uzbekqahramonlar/init/ItemAnimationFactory.java",
+      "src/main/java/net/mcreator/uzbekqahramonlar/utils/AnimUtils.java",
+      "src/main/java/net/mcreator/uzbekqahramonlar/init/UzbekQahramonlarModKeyMappings.java",
+      "src/main/java/net/mcreator/uzbekqahramonlar/init/UzbekQahramonlarModItems.java",
+      "src/main/resources/META-INF/accesstransformer.cfg",
+      "src/main/java/net/mcreator/uzbekqahramonlar/UzbekQahramonlarMod.java",
+      "src/main/java/net/mcreator/uzbekqahramonlar/init/UzbekQahramonlarModTabs.java",
+      "src/main/resources/META-INF/mods.toml",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "uzbek_qahramonlar",
+    "modName": "uzbek_qahramonlar",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "photon",
+      "eca",
+      "curios_api",
+      "geckolib"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.uzbekqahramonlar"
+  },
+  "mcreatorVersion": 202500345720
+}

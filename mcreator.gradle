@@ -1,0 +1,75 @@
+repositories {
+        maven {
+            url = "https://www.cursemaven.com"
+            content {
+                includeGroup "curse.maven"
+            }
+        }
+    }
+
+dependencies {
+  modImplementation "curse.maven:photon-871522:6878530"
+  modImplementation "curse.maven:ldlib-626676:7339338"
+}
+
+
+repositories {
+  maven {
+    url = "https://cursemaven.com"
+    content {
+      includeGroup "curse.maven"
+    }
+  }
+}
+dependencies {
+  // 使用 dev jar（包含 MCP 映射的 refmap），无需 fg.deobf()
+  implementation "curse.maven:epic-core-api-977556:7559826"
+}
+
+
+repositories {
+maven {
+  url = "https://maven.theillusivec4.top/"
+  }
+}
+
+dependencies {
+    modRuntimeOnly "top.theillusivec4.curios:curios-forge:5.4.2+1.20.1"
+    modCompileOnly "top.theillusivec4.curios:curios-forge:5.4.2+1.20.1:api"
+
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+}
+legacyForge {
+    validateAccessTransformers = true
+
+    runs {
+        client {
+            client()
+            programArguments.add("--mixin.env.remapRefMap=true")
+            programArguments.add("--mixin.env.refMapRemappingFile=${projectDir}/build/createSrgToMcp/output.srg")
+        }
+        server {
+            server()
+            programArguments.add("--mixin.env.remapRefMap=true")
+            programArguments.add("--mixin.env.refMapRemappingFile=${projectDir}/build/createSrgToMcp/output.srg")
+        }
+        data {
+            data()
+            programArguments.add("--mixin.env.remapRefMap=true")
+            programArguments.add("--mixin.env.refMapRemappingFile=${projectDir}/build/createSrgToMcp/output.srg")
+        }
+    }
+}
+
+
+repositories {
+  maven {
+      url = 'https://dl.cloudsmith.io/public/geckolib3/geckolib/maven/'
+  }
+}
+
+dependencies {
+  modImplementation 'software.bernie.geckolib:geckolib-forge-1.20.1:4.8.2'
+}
+
+
