@@ -132,7 +132,7 @@
       "name": "LaserSaberCombatHitProcedure",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "laser_saber_combat_hit_procedure",
       "metadata": {
         "dependencies": [],
@@ -145,7 +145,7 @@
       "name": "LaserSaberTreeChopProcedure",
       "type": "procedure",
       "compiles": true,
-      "locked_code": false,
+      "locked_code": true,
       "registry_name": "laser_saber_tree_chop_procedure",
       "metadata": {
         "dependencies": [],
