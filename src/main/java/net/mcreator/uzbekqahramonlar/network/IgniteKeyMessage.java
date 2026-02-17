@@ -51,7 +51,7 @@ public class IgniteKeyMessage {
 			return;
 		if (type == 0) {
 
-			IgniteKeyOnKeyPressedProcedure.execute(entity);
+			IgniteKeyOnKeyPressedProcedure.execute(world, x, y, z, entity);
 		}
 	}
 

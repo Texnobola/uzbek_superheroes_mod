@@ -1,0 +1,34 @@
+{
+  "laser_open": {
+    "sounds": [
+      {
+        "name": "uzbek_qahramonlar:laser_on",
+        "stream": false
+      }
+    ]
+  },
+  "strike1": {
+    "sounds": [
+      {
+        "name": "uzbek_qahramonlar:laser-strike1",
+        "stream": false
+      }
+    ]
+  },
+  "strike2": {
+    "sounds": [
+      {
+        "name": "uzbek_qahramonlar:laser-strike2",
+        "stream": false
+      }
+    ]
+  },
+  "strike3": {
+    "sounds": [
+      {
+        "name": "uzbek_qahramonlar:laser-strike3",
+        "stream": false
+      }
+    ]
+  }
+}

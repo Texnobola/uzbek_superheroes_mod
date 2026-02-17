@@ -67,6 +67,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ],
         "files": [
@@ -85,10 +101,69 @@
           "src/main/java/net/mcreator/uzbekqahramonlar/network/IgniteKeyMessage.java"
         ]
       }
+    },
+    {
+      "name": "Lazerqilichretsepti",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lazerqilichretsepti",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/uzbek_qahramonlar/recipes/lazerqilichretsepti.json",
+          "src/main/resources/data/uzbek_qahramonlar/advancements/recipes/lazerqilichretsepti.json"
+        ]
+      }
+    },
+    {
+      "name": "LaserSaberHitSound",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "laser_saber_hit_sound",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/procedures/LaserSaberHitSoundProcedure.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "laser_open",
+      "files": [
+        "laser_on"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "strike1",
+      "files": [
+        "laser-strike1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "strike2",
+      "files": [
+        "laser-strike2"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "strike3",
+      "files": [
+        "laser-strike3"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
@@ -97,7 +172,11 @@
       "advancements.letsfuckinggo.title": "LETS FUCKING  GO !!!!!!!!",
       "item_group.uzbek_qahramonlar.uzbek_qahramonlar": "Uzbek Qahramonlar",
       "item.uzbek_qahramonlar.laser_saber": "Lazer Qilich",
-      "key.uzbek_qahramonlar.ignite_key": "Ignite Key"
+      "key.uzbek_qahramonlar.ignite_key": "Ignite Key",
+      "subtitles.laser_open": "",
+      "subtitles.strike1": "",
+      "subtitles.strike2": "",
+      "subtitles.strike3": ""
     }
   },
   "metadata": {
@@ -108,9 +187,11 @@
       "src/main/java/net/mcreator/uzbekqahramonlar/init/UzbekQahramonlarModItems.java",
       "src/main/resources/META-INF/accesstransformer.cfg",
       "src/main/java/net/mcreator/uzbekqahramonlar/UzbekQahramonlarMod.java",
+      "src/main/java/net/mcreator/uzbekqahramonlar/init/UzbekQahramonlarModSounds.java",
       "src/main/java/net/mcreator/uzbekqahramonlar/init/UzbekQahramonlarModTabs.java",
       "src/main/resources/META-INF/mods.toml",
-      "src/main/resources/pack.mcmeta"
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/assets/uzbek_qahramonlar/sounds.json"
     ]
   },
   "foldersRoot": {

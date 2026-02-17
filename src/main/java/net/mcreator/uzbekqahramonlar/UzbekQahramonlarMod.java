@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.uzbekqahramonlar.init.UzbekQahramonlarModTabs;
+import net.mcreator.uzbekqahramonlar.init.UzbekQahramonlarModSounds;
 import net.mcreator.uzbekqahramonlar.init.UzbekQahramonlarModItems;
 
 import java.util.function.Supplier;
@@ -39,6 +40,7 @@ public class UzbekQahramonlarMod {
 		// End of user code block mod constructor
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = context.getModEventBus();
+		UzbekQahramonlarModSounds.REGISTRY.register(bus);
 		UzbekQahramonlarModItems.REGISTRY.register(bus);
 		UzbekQahramonlarModTabs.REGISTRY.register(bus);
 		// Start of user code block mod init
