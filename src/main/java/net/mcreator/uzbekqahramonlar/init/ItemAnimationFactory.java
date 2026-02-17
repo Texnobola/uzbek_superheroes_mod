@@ -1,7 +1,5 @@
 package net.mcreator.uzbekqahramonlar.init;
 
-import software.bernie.geckolib.animatable.GeoItem;
-
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.TickEvent;

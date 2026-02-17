@@ -1,8 +1,5 @@
 package net.mcreator.uzbekqahramonlar.item.renderer;
 
-import software.bernie.geckolib.renderer.GeoItemRenderer;
-import software.bernie.geckolib.cache.object.BakedGeoModel;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.resources.ResourceLocation;

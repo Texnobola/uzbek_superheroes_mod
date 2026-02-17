@@ -1,7 +1,5 @@
 package net.mcreator.uzbekqahramonlar.item.model;
 
-import software.bernie.geckolib.model.GeoModel;
-
 import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.uzbekqahramonlar.item.LaserSaberItem;

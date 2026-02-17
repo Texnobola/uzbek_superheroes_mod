@@ -25,7 +25,7 @@
     {
       "name": "LaserSaber",
       "type": "animateditem",
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "laser_saber",
       "metadata": {
@@ -125,6 +125,32 @@
         "dependencies": [],
         "files": [
           "src/main/java/net/mcreator/uzbekqahramonlar/procedures/LaserSaberHitSoundProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserSaberCombatHitProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_saber_combat_hit_procedure",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/procedures/LaserSaberCombatHitProcedureProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "LaserSaberTreeChopProcedure",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "laser_saber_tree_chop_procedure",
+      "metadata": {
+        "dependencies": [],
+        "files": [
+          "src/main/java/net/mcreator/uzbekqahramonlar/procedures/LaserSaberTreeChopProcedureProcedure.java"
         ]
       }
     }
