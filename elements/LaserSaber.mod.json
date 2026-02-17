@@ -41,6 +41,9 @@
     "onItemInUseTick": {
       "name": "LaserSaberItemInHandTick"
     },
+    "onEntitySwing": {
+      "name": "LaserSaberHitSound"
+    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
